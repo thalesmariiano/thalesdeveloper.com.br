@@ -24,5 +24,12 @@
 				</button>
 			</div>
 		</div>
+
+		<DrawerMenu />
+
 	</div>
 </template>
+
+<script setup>
+	import DrawerMenu from '@/components/DrawerMenu.vue'
+</script>
