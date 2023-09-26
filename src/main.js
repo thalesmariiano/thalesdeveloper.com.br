@@ -1,4 +1,4 @@
-import './animate.css'
+import 'animate.css'
 import './input.css'
 
 import { createApp } from 'vue'
