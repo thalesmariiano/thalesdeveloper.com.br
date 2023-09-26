@@ -17,10 +17,10 @@
 			</nav>
 
 			<div class="md:hidden">
-				<button @click="drawer()" class="space-y-2">
-					<div class="w-8 h-1 bg-white"></div>
-					<div class="w-8 h-1 bg-white"></div>
-					<div class="w-8 h-1 bg-white"></div>
+				<button @click="drawer()" :class="[{'hamburger-close': isOpen}, 'space-y-2', 'transiton-all', 'duration-300']">
+					<div class="w-8 h-1 bg-white line1 rounded transition-all duration-300"></div>
+					<div class="w-8 h-1 bg-white line2 rounded transition-all duration-300"></div>
+					<div class="w-8 h-1 bg-white line3 rounded"></div>
 				</button>
 			</div>
 		</div>
@@ -42,3 +42,21 @@
 		isOpen.value = !isOpen.value
 	}
 </script>
+
+<style scoped>
+	.hamburger-close {
+		@apply rotate-45
+	}
+
+	.hamburger-close .line1 {
+		transform: translateY(26px) rotate(-60deg);
+	  	transform-origin: left;
+	  	z-index: 1;
+	}
+	.hamburger-close .line2 {
+		transform: translateY(14px) rotate(60deg);
+		margin-left: 0;
+		transform-origin: right;
+		z-index: 2;
+	}
+</style>
