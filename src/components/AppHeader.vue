@@ -17,7 +17,7 @@
 			</nav>
 
 			<div class="md:hidden">
-				<button class="space-y-2">
+				<button @click="drawer()" class="space-y-2">
 					<div class="w-8 h-1 bg-white"></div>
 					<div class="w-8 h-1 bg-white"></div>
 					<div class="w-8 h-1 bg-white"></div>
@@ -25,11 +25,20 @@
 			</div>
 		</div>
 
-		<DrawerMenu />
+		<DrawerMenu
+			v-show="isOpen"
+		/>
 
 	</div>
 </template>
 
 <script setup>
+	import { ref } from 'vue'
 	import DrawerMenu from '@/components/DrawerMenu.vue'
+
+	let isOpen = ref(false)
+
+	const drawer = () => {
+		isOpen.value = !isOpen.value
+	}
 </script>
