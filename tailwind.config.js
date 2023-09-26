@@ -19,6 +19,9 @@ module.exports = {
         madeTommy: ['madeTommyLight', 'sans-serif'],
         kusanagi: ['kusanagi', 'sans-serif'],
       },
+      boxShadow: {
+        drawer: '-3px 0px 5px rgba(0,0,0,.5)'
+      }
     },
   },
   plugins: [],
