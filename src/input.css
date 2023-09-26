@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: madeTommyLight;
+		src: url(./assets/fonts/made_tommy_light.otf);
+	}
+	@font-face {
+		font-family: kusanagi;
+		src: url(./assets/fonts/kusanagi.otf);
+	}
+	.text-shadow {
+		text-shadow: -3px 3px 0 rgba(0,0,0,.3);
+	}
+}
