@@ -1,5 +1,5 @@
 <template>
-	<div class="fixed top-[4.5rem] left-0 w-full h-full flex justify-end bg-neutral-900/75">
+	<div class="fixed top-[4.5rem] left-0 w-full h-full flex justify-end">
 		<div class="w-80 h-screen bg-myPurple-900 p-5 shadow-drawer">
 			<nav>
 				<ul class="text-right mt-2">
