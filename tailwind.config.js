@@ -20,7 +20,8 @@ module.exports = {
         kusanagi: ['kusanagi', 'sans-serif'],
       },
       boxShadow: {
-        drawer: '-3px 0px 5px rgba(0,0,0,.5)'
+        drawer: '-3px 3px 5px rgba(0,0,0,.5)',
+        header: '0px 3px 5px rgba(0,0,0,.5)'
       }
     },
   },
