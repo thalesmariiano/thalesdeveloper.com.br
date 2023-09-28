@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="sticky top-0 left-0">
     <AppHeader />
   </header>
   <section>
