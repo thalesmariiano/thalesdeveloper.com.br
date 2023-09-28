@@ -1,3 +1,5 @@
 <template>
-	Sobre Mim
+	<section>
+		Sobre Mim
+	</section>
 </template>

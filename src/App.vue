@@ -1,11 +1,7 @@
 <template>
   <AppHeader />
-  <section>
-    <InicioSection />
-  </section>
-  <section>
-    <SobreSection />
-  </section>
+  <InicioSection />
+  <SobreSection />
 </template>
 
 <script setup>
