@@ -1,7 +1,5 @@
 <template>
-  <header class="sticky top-0 left-0">
-    <AppHeader />
-  </header>
+  <AppHeader />
   <section>
     <InicioSection />
   </section>

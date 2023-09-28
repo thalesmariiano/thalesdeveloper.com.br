@@ -1,41 +1,42 @@
 <template>
-	<div class="flex w-full md:px-24 px-5 py-5 bg-myPurple-900 shadow-header">
-		<div>
-			<a href="https://thalesdeveloper.com.br">
-				<img class="w-56" src="../assets/logo_purple_white.png">
-			</a>
-		</div>
-
-		<div class="w-full flex justify-end items-center">
-			<nav class="hidden md:block">
-				<ul class="flex gap-x-7">
-					<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Inicio</a></li>
-					<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Sobre</a></li>
-					<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Projetos</a></li>
-					<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Contato</a></li>
-				</ul>
-			</nav>
-
-			<div class="md:hidden">
-				<button @click="drawer()" :class="[{'hamburger-close': isOpen}, 'space-y-2', 'transiton-all', 'duration-500']">
-					<div class="w-8 h-1 bg-white line1 rounded transition-all duration-500"></div>
-					<div class="w-8 h-1 bg-white line2 rounded transition-all duration-500"></div>
-					<div class="w-8 h-1 bg-white line3 rounded"></div>
-				</button>
+	<header class="sticky top-0 left-0">
+		<div class="flex w-full md:px-24 px-5 py-5 bg-myPurple-900 shadow-header">
+			<div>
+				<a href="https://thalesdeveloper.com.br">
+					<img class="w-56" src="../assets/logo_purple_white.png">
+				</a>
 			</div>
+
+			<div class="w-full flex justify-end items-center">
+				<nav class="hidden md:block">
+					<ul class="flex gap-x-7">
+						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Inicio</a></li>
+						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Sobre</a></li>
+						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Projetos</a></li>
+						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Contato</a></li>
+					</ul>
+				</nav>
+
+				<div class="md:hidden">
+					<button @click="drawer()" :class="[{'hamburger-close': isOpen}, 'space-y-2', 'transiton-all', 'duration-500']">
+						<div class="w-8 h-1 bg-white line1 rounded transition-all duration-500"></div>
+						<div class="w-8 h-1 bg-white line2 rounded transition-all duration-500"></div>
+						<div class="w-8 h-1 bg-white line3 rounded"></div>
+					</button>
+				</div>
+			</div>
+
+			<Transition
+				enter-active-class="animate__animated animate__slideInRight"
+				leave-active-class="animate__animated animate__slideOutRight"
+			>
+				<DrawerMenu
+					v-show="isOpen"
+					:drawerBg="isOpen"
+				/>
+			</Transition>
 		</div>
-
-		<Transition
-			enter-active-class="animate__animated animate__slideInRight"
-			leave-active-class="animate__animated animate__slideOutRight"
-		>
-			<DrawerMenu
-				v-show="isOpen"
-				:drawerBg="isOpen"
-			/>
-		</Transition>
-
-	</div>
+	</header>
 </template>
 
 <script setup>
