@@ -21,7 +21,8 @@ module.exports = {
       },
       boxShadow: {
         drawer: '-3px 3px 5px rgba(0,0,0,.5)',
-        header: '0px 3px 5px rgba(0,0,0,.5)'
+        header: '0px 3px 5px rgba(0,0,0,.5)',
+        button: '-3px 3px 0px rgba(0,0,0,.4)'
       }
     },
   },
