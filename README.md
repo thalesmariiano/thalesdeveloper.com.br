@@ -1,8 +1,8 @@
 # thalesdeveloper.com.br
 
-Meu "novo" portfolio (re)feito com <strong>VueJs</strong>!
+Meu "novo" portfolio que estou (re)fazendo com <strong>VueJs</strong>!
 
-Um tempo depois de ter feito o meu portfolio anterior, eu já pensava que eu podia fazer melhor! 
+Um tempo depois de ter feito o meu <a href="https://github.com/thalesmariiano/portifolio-thales-developer">portfolio anterior</a>, eu já pensava que eu podia fazer melhor! 
 Então eu fiz! xD
 
 ---
@@ -12,5 +12,7 @@ Então eu fiz! xD
 - VueJs 3
 - TailwindCSS
 - Javascript
+
+- SKill Icons
 
 
