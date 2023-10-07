@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full max-w-xs sm:max-w-sm md:max-w-3xl p-5 bg-myPurple-900/40 flex flex-col md:flex-row justify-between items-center rounded gap-y-4 border border-myPurple-400">
+	<div :class="cardClass">
 		<div class="w-full">
 			<img class="mx-auto w-72 md:w-80" :src="project.image">
 		</div>
@@ -27,8 +27,11 @@
 			}
 		},
 		setup(props){
+			const cardClass = props.project.id % 2 ? 'card-normal' : 'card-reverse'
+
 			const siteLink = props.project.link
 			const repositoryLink = props.project.repository
+
 			const linkClass = props.project.link ? 'project-button-active' : 'project-button-desactived' 
 			const repositoryClass = props.project.repository ? 'project-button-active' : 'project-button-desactived' 
 
@@ -37,7 +40,8 @@
 				siteLink,
 				repositoryLink,
 				linkClass,
-				repositoryClass
+				repositoryClass,
+				cardClass
 			}
 		}
 	}
@@ -50,6 +54,12 @@
 
 	.project-button-desactived {
 		@apply px-5 py-1 text-lg font-madeTommy text-neutral-300 bg-myPurple-900 rounded border border-myPurple-400 cursor-not-allowed opacity-50
+	}
+	.card-normal {
+		@apply w-full max-w-xs sm:max-w-sm md:max-w-3xl p-5 bg-myPurple-900/40 flex flex-col md:flex-row justify-between items-center rounded gap-y-4 border border-myPurple-400
+	}
+	.card-reverse {
+		@apply w-full max-w-xs sm:max-w-sm md:max-w-3xl px-12 py-5 bg-myPurple-900/40 flex flex-col md:flex-row-reverse justify-between items-center rounded gap-y-4 border border-myPurple-400
 	}
 
 </style>
