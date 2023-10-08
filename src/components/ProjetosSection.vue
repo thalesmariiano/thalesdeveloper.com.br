@@ -1,5 +1,5 @@
 <template>
-	<section id="projetos">
+	<section id="projetos" class="scroll-mt-28">
 		<div class="w-full text-center bg-myPurple-700 px-5 py-10 space-y-10">
 			<h1 class="font-kusanagi text-white text-shadow text-4xl sm:text-5xl">Projetos</h1>
 			<div class="flex flex-col gap-y-8 justify-center items-center">
