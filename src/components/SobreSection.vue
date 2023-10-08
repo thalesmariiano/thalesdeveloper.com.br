@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<div class="w-full py-5 bg-myPurple-900 py-10 space-y-10">
+		<div class="w-full bg-myPurple-900 py-10 space-y-10">
 			<div class="w-full flex flex-col md:flex-row justify-center items-center gap-5">
 				<div class="w-72 shrink-0 h-96 bg-neutral-700 bg-[url('./assets/me.jpg')] bg-center bg-cover rounded">
 					
