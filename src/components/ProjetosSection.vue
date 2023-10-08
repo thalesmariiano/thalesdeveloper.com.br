@@ -9,7 +9,7 @@
 					:project="project"
 				/>
 			</div>
-			<div class="space-x-5">
+			<div class="w-full flex flex-col sm:flex-row gap-5 justify-center items-center">
 				<a class="px-5 py-1 text-lg font-madeTommy text-neutral-300 bg-myPurple-800 rounded border border-myPurple-400 hover:bg-myPurple-400 hover:text-myPurple-900 shadow-button transition-all cursor-pointer" href="https://github.com/thalesmariiano">Ver mais</a>
 				<a class="px-5 py-1 text-lg font-madeTommy text-neutral-300 bg-myPurple-800 rounded border border-myPurple-400 hover:bg-myPurple-400 hover:text-myPurple-900 shadow-button transition-all cursor-pointer" href="#">Entre em contato</a>
 			</div>
