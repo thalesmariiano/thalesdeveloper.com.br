@@ -4,6 +4,7 @@
   <SobreSection />
   <ProjetosSection />
   <ContatoSection />
+  <AppFooter />
 </template>
 
 <script setup>
@@ -12,6 +13,7 @@
   import SobreSection from '@/components/SobreSection.vue'
   import ProjetosSection from '@/components/ProjetosSection.vue'
   import ContatoSection from '@/components/ContatoSection.vue'
+  import AppFooter from '@/components/AppFooter.vue'
 </script>
 
 <style scoped>
