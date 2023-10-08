@@ -11,9 +11,9 @@
 				<nav class="hidden md:block">
 					<ul class="flex gap-x-7">
 						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Inicio</a></li>
-						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Sobre</a></li>
-						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Projetos</a></li>
-						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#">Contato</a></li>
+						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#sobre">Sobre</a></li>
+						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#projetos">Projetos</a></li>
+						<li><a class="text-white text-xl font-madeTommy hover:text-myPurple-100" href="#contato">Contato</a></li>
 					</ul>
 				</nav>
 
