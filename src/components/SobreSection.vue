@@ -1,8 +1,8 @@
 <template>
 	<section>
-		<div class="w-full bg-myPurple-900 py-10 space-y-10">
+		<div class="relative w-full bg-myPurple-900 py-10 space-y-10 overflow-hidden">
 			<div class="w-full flex flex-col md:flex-row justify-center items-center gap-5">
-				<div class="w-72 shrink-0 h-96 bg-neutral-700 bg-[url('./assets/me.jpg')] bg-center bg-cover rounded">
+				<div class="w-72 shrink-0 h-96 bg-neutral-700 bg-[url('./assets/me.jpg')] bg-center bg-cover rounded z-40">
 					
 				</div>
 				<div class="text-center md:text-left space-y-2">
@@ -40,6 +40,8 @@
 					<img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
 				</div>
 			</div>
+			<img class="w-80 absolute top-5 rotate-12 -left-7 opacity-[0.05]" src="../assets/tardis.png">
+			<img class="w-72 absolute bottom-5 md:top-10 rotate-12 -right-10 md:right-7 opacity-[0.04]" src="../assets/snk.png">
 		</div>
 	</section>
 </template>
