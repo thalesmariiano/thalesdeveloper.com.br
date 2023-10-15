@@ -2,7 +2,7 @@
 	<footer>
 		<div class="w-full bg-myPurple-400 px-10 lg:px-24 py-5 flex flex-col md:flex-row justify-center md:justify-between items-center">
 			<div class="hidden md:block">
-				<img class="w-40" src="../assets/logo_white.png">
+				<a href="https://thalesdeveloper.com.br"><img class="w-40" src="../assets/logo_white.png"></a>
 			</div>
 			<div class="text-center">
 				<p class="text-white text-xs font-madeTommy">
@@ -13,13 +13,12 @@
 				</p>
 			</div>
 			<div class="hidden md:block">
-				<img class="w-40" src="../assets/ivstudio_logo.png">
-				
+				<a href="https://ivstudio.com.br" target="_blank"><img class="w-40" src="../assets/ivstudio_logo.png"></a>
 			</div>
 			<div class="md:hidden flex justify-center items-center  gap-3 mt-3">
-				<img class="w-32" src="../assets/logo_white.png">
+				<a href="https://thalesdeveloper.com.br"><img class="w-32" src="../assets/logo_white.png"></a>
 				<span class="w-0.5 h-8 bg-white rounded"></span>
-				<img class="w-32" src="../assets/ivstudio_logo.png">
+				<a href="https://ivstudio.com.br" target="_blank"><img class="w-32" src="../assets/ivstudio_logo.png"></a>
 			</div>
 		</div>
 	</footer>
