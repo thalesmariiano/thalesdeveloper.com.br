@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full flex justify-center items-center mt-10">
-		<form action="/" method="POST">
+		<form action="/" method="POST" netlify>
 			<div class="space-y-2">
 				<div class="w-full flex flex-col sm:flex-row gap-2 ">
 					<input class="w-64 sm:w-56 pl-4 py-1 font-madeTommy text-neutral-500 focus:text-neutral-900 text-lg rounded" type="text" name="name" placeholder="Nome" autocomplete="off" required />
