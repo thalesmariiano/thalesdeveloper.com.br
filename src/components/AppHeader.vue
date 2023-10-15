@@ -3,7 +3,7 @@
 		<div class="flex w-full md:px-24 px-5 py-5 bg-myPurple-900 shadow-header">
 			<div>
 				<a href="https://thalesdeveloper.com.br">
-					<img class="w-56" src="../assets/logo_purple_white.png">
+					<img class="min-w-[10rem] w-56" src="../assets/logo_purple_white.png">
 				</a>
 			</div>
 
