@@ -25,9 +25,9 @@
 			"Socket.IO",
 			"ExpressJs"
 		],
-		"image": "src/assets/banners/venancin-mockup.png",
+		"image": "src/assets/banners/papodez-mockup.png",
 		"link": null,
-		"repository": null,
+		"repository": "https://github.com/thalesmariiano/PapoDez",
 		"soon": true
 	},
 	{	
