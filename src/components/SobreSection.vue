@@ -40,8 +40,8 @@
 					<img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
 				</div>
 			</div>
-			<img class="w-80 absolute top-5 rotate-12 -left-7 opacity-[0.05]" src="../assets/tardis.png">
-			<img class="w-72 absolute bottom-5 md:top-10 rotate-12 -right-10 md:right-7 opacity-[0.04]" src="../assets/snk.png">
+			<img class="w-80 absolute top-5 rotate-12 -left-7 opacity-[0.05]" src="../assets/tardis.png" alt="Doctor Who Tardis">
+			<img class="w-72 absolute bottom-5 md:top-10 rotate-12 -right-10 md:right-7 opacity-[0.04]" src="../assets/snk.png" alt="Attack on Titan brasão da tropa de exploração">
 		</div>
 	</section>
 </template>

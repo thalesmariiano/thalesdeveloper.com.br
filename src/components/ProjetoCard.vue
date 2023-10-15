@@ -1,7 +1,7 @@
 <template>
 	<div :class="cardClass">
 		<div class="w-full">
-			<img class="mx-auto w-72 md:w-80" :src="project.image">
+			<img class="mx-auto w-72 md:w-80" :src="project.image" :alt="project.name">
 		</div>
 		<div class="w-full md:text-left space-y-5">
 			<div class="md:text-left mx-auto md:mx-0 space-y-2 w-3/4 md:w-4/5">

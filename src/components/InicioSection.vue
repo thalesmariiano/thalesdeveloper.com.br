@@ -3,7 +3,7 @@
 		<div class="w-full px-5 pt-10 pb-20 bg-gradient-to-tr from-myPurple-700 to-myPurple-100">
 			<div class="container h-full mx-auto space-y-5 md:flex md:flex-row-reverse md:justify-center md:items-center lg:gap-x-10">
 				<div>
-					<img class="w-96 lg:w-[35rem] mx-auto md:m-0" src="../assets/ilustracao_notebook.png">
+					<img class="w-96 lg:w-[35rem] mx-auto md:m-0" src="../assets/ilustracao_notebook.png" alt="ilustração de um notebook">
 				</div>
 				<div class="space-y-5">
 					<div class="space-y-5">
