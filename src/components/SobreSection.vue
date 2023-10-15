@@ -10,15 +10,15 @@
 					<div class="w-80 sm:w-3/5 md:w-[28rem] mx-auto md:mx-0 space-y-4 px-3 sm:px-0">
 						<p class="font-madeTommy text-white">
 							Meu nome é Thales, Mariano tenho 20 anos e sou um
-							Web Developer com 1 ano de experiência profissionalmente desenvolvendo sites e aplicações web. Minha paixão pela criação de sites me levou
+							Web Developer com 1 ano de experiência profissionalmente desenvolvendo sites e aplicações web. Minha paixão pela programação me levou
 							a buscar conhecimentos sólidos em diversas tecnologias
 							e frameworks.
 						</p>
 						<p class="font-madeTommy text-white">
 							Possuo um conhecimento sólido em tecnologias
-							de front-end, como VueJs, TailwindCss, JavaScript e
-							Php. Essa combinação de habilidades me
-							permite criar diariamente aplicações web atrativas,
+							de front-end, como VueJs, TailwindCss, JavaScript.
+							Essa combinação de habilidades me
+							permite criar aplicações web atrativas,
 							fáceis de usar e que atendem às necessidades
 							específicas de cada projeto. Utilizo essas
 							ferramentas de forma eficiente, garantindo uma
