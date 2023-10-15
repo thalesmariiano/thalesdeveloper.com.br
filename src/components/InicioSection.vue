@@ -22,7 +22,7 @@
 						</div>
 					</div>
 					<div class="flex flex-wrap justify-center md:justify-start gap-x-5 gap-y-3">
-						<a class="border-2 border-myPurple-900 px-5 py-0.5 text-lg font-madeTommy rounded hover:border-white hover:text-white transition-all" href="#">Entre em contato</a>
+						<a class="border-2 border-myPurple-900 px-5 py-0.5 text-lg font-madeTommy rounded hover:border-white hover:text-white transition-all" href="#contato">Entre em contato</a>
 						<a class="border-2 border-myPurple-900 px-5 py-0.5 text-lg font-madeTommy text-white bg-myPurple-900 shadow-button rounded hover:bg-myPurple-400 hover:text-myPurple-900 transition-all" href="#">Baixar CV</a>
 					</div>
 				</div>
