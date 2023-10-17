@@ -8,7 +8,7 @@
 			"TailwindCSS",
 			"Javascript"
 		],
-		"image": "src/assets/banners/sas-mockup.png",
+		"image": "../assets/banners/sas-mockup.png",
 		"link": "https://shootandslash.online",
 		"repository": "https://github.com/thalesmariiano/Shoot-And-Slash",
 		"soon": false
@@ -25,7 +25,7 @@
 			"Socket.IO",
 			"ExpressJs"
 		],
-		"image": "src/assets/banners/papodez-mockup.png",
+		"image": "../assets/banners/papodez-mockup.png",
 		"link": null,
 		"repository": "https://github.com/thalesmariiano/PapoDez",
 		"soon": true
@@ -39,7 +39,7 @@
 			"TailwindCSS",
 			"Javascript"
 		],
-			"image": "src/assets/banners/venancin-mockup.png",
+		"image": "../assets/banners/venancin-mockup.png",
 		"link": "https://venancincoins.com.br",
 		"repository": null,
 		"soon": false
@@ -53,7 +53,7 @@
 			"CSS3",
 			"Javascript"
 		],
-			"image": "src/assets/banners/blorg-mockup.png",
+		"image": "../assets/banners/blorg-mockup.png",
 		"link": "https://blogr-landing-page-front-end-mentor.netlify.app/",
 		"repository": "https://github.com/thalesmariiano/Blogr-Landing-Page-Main",
 		"soon": false
