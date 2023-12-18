@@ -36,7 +36,6 @@
 					<img src="https://skillicons.dev/icons?i=html" alt="HTML" />
 					<img src="https://skillicons.dev/icons?i=css" alt="CSS"/>
 					<img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" />
-					<img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" />
 					<img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
 				</div>
 			</div>
