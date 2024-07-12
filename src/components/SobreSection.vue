@@ -10,7 +10,7 @@
 					<div class="w-80 sm:w-3/5 md:w-[28rem] mx-auto md:mx-0 space-y-4 px-3 sm:px-0">
 						<p class="font-madeTommy text-white">
 							Meu nome é Thales, Mariano tenho 21 anos e sou um
-							Web Developer com 1 ano de experiência profissionalmente desenvolvendo sites e aplicações web. Minha paixão pela programação me levou
+							Web Developer com 2 ano de experiência profissionalmente desenvolvendo sites e aplicações web. Minha paixão pela programação me levou
 							a buscar conhecimentos sólidos em diversas tecnologias
 							e frameworks.
 						</p>
