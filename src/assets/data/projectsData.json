@@ -4,10 +4,11 @@
 		"name": "Shoot And Slash",
 		"description": "Esse é um projeto pessoal de um jogo 2D estilo hack and slash. Esse é o projeto onde estou usando todo conhecimento de javascript que tenho.",
 		"langs": [
-			"HTML5",
+			"HTML",
 			"TailwindCSS",
 			"Javascript"
 		],
+		"categorys": ["All", "Front-End", "Personal"],
 		"image": "/banners/sas-mockup.png",
 		"link": "https://shootandslash.online",
 		"repository": "https://github.com/thalesmariiano/Shoot-And-Slash",
@@ -18,13 +19,14 @@
 		"name": "PapoDez",
 		"description": "Um chat online onde você pode conversar com pessoas de todo o brasil.",
 		"langs": [
-			"HTML5",
+			"HTML",
 			"TailwindCSS",
 			"Javascript",
 			"NodeJs",
 			"Socket.IO",
 			"ExpressJs"
 		],
+		"categorys": ["All", "Full-Stack", "Personal"],
 		"image": "/banners/papodez-mockup.png",
 		"link": null,
 		"repository": "https://github.com/thalesmariiano/PapoDez",
@@ -35,10 +37,11 @@
 		"name": "Venacin Coins",
 		"description": "O primeiro freelancer como Front-End que fiz. Tive algumas dificuldades no inicio, mas deu tudo certo no final.",
 		"langs": [
-			"HTML5",
+			"HTML",
 			"TailwindCSS",
 			"Javascript"
 		],
+		"categorys": ["All", "Front-End", "Freelancer"],
 		"image": "/banners/venancin-mockup.png",
 		"link": "https://venancincoins.com.br",
 		"repository": null,
@@ -46,16 +49,77 @@
 	},
 	{	
 		"id": 4,
-		"name": "Blogr Landing Page",
-		"description": "Uma landing page que fiz para um dos desafios da Front-End Mentor. Aprendi bastante sobre grids nesse.",
+		"name": "Nutri Planner Pro",
+		"description": "Uma landing page para uma planilha de atendimento para nutricionistas.",
 		"langs": [
-			"HTML5",
-			"CSS3",
+			"VueJs",
+			"TailwindCSS",
 			"Javascript"
 		],
+		"categorys": ["All", "Front-End", "Freelancer"],
+		"image": "/banners/nutri-planner-mockup.png",
+		"link": null,
+		"repository": null,
+		"soon": true
+	},
+	{	
+		"id": 5,
+		"name": "E-Book Afirme e Cocrie",
+		"description": "Uma landing page para um E-Book sobre lei da atração.",
+		"langs": [
+			"VueJs",
+			"TailwindCSS",
+			"Javascript"
+		],
+		"categorys": ["All", "Front-End", "Freelancer"],
+		"image": "/banners/afirme-e-cocrie-mockup.png",
+		"link": "https://afirmeecocrie.vercel.app",
+		"repository": null,
+		"soon": false
+	},
+	{	
+		"id": 6,
+		"name": "Blogr Landing Page",
+		"description": "Uma landing page de estudo para um dos desafios da Front-End Mentor.",
+		"langs": [
+			"HTML",
+			"CSS",
+			"Javascript"
+		],
+		"categorys": ["All", "Front-End", "Study"],
 		"image": "/banners/blorg-mockup.png",
 		"link": "https://blogr-landing-page-front-end-mentor.netlify.app/",
 		"repository": "https://github.com/thalesmariiano/Blogr-Landing-Page-Main",
+		"soon": false
+	},
+	{	
+		"id": 7,
+		"name": "Loop Studio Landing Page",
+		"description": "Uma landing page de estudo para um dos desafios da Front-End Mentor.",
+		"langs": [
+			"HTML",
+			"CSS",
+			"Javascript"
+		],
+		"categorys": ["All", "Front-End", "Study"],
+		"image": "/banners/loops-studio-mockup.png",
+		"link": "https://loopstudio-landingpage-thalesmariiano.netlify.app/",
+		"repository": "https://github.com/thalesmariiano/loopstudio-landingpage",
+		"soon": false
+	},
+	{	
+		"id": 8,
+		"name": "Sunny Agency Landing Page",
+		"description": "Uma landing page de estudo para um dos desafios da Front-End Mentor.",
+		"langs": [
+			"HTML",
+			"CSS",
+			"Javascript"
+		],
+		"categorys": ["All", "Front-End", "Study"],
+		"image": "/banners/sunny-agency-mockup.png",
+		"link": "https://agency-landingpage-thalesmariiano.netlify.app/",
+		"repository": "https://github.com/thalesmariiano/Sunny-agency-landing-page",
 		"soon": false
 	}
 ]
