@@ -6,6 +6,15 @@
 		<div class="w-full md:text-left space-y-5">
 			<div class="md:text-left mx-auto md:mx-0 space-y-2 w-3/4 md:w-4/5">
 				<h2 class="font-bold font-madeTommy text-2xl text-myPurple-400">{{ project.name }}</h2>
+				<ul class="flex gap-x-2 justify-center md:justify-start items-center">
+					<li
+						v-for="category in project.categorys"
+						:key="project.id"
+						class="text-neutral-300 font-madeTommy text-xs bg-neutral-700/50 px-2 rounded-md"
+					>
+						{{ category }}
+					</li>
+				</ul>
 				<p class="text-neutral-200 font-madeTommy leading-5">
 					{{ project.description }}
 				</p>
