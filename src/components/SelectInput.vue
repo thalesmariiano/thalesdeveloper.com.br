@@ -79,6 +79,9 @@
 		selectText.value.innerHTML = inputValue
 		emit('filter', inputValue)
 		showSelect.value = false
+
+		if(showSelect.value) caretIcon.value.style.transform = "rotateZ(180deg)"
+		else caretIcon.value.style.transform = "rotateZ(0deg)"
 	}
 
 </script>
