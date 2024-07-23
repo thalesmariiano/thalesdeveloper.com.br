@@ -58,9 +58,9 @@
 		],
 		"categorys": ["All", "Front-End", "Freelancer"],
 		"image": "/banners/nutri-planner-mockup.png",
-		"link": null,
+		"link": "https://toolboxplan.com.br",
 		"repository": null,
-		"soon": true
+		"soon": false
 	},
 	{	
 		"id": 5,
