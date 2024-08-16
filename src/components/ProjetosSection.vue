@@ -59,7 +59,4 @@
 	  transform: translateX(10px);
 	  opacity: 0;
 	}
-	.projects-leave-active {
-  		
-	}
 </style>
