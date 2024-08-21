@@ -1,3 +1,20 @@
+<script setup>
+	import { ref } from 'vue'
+	import SelectInput from '@/components/SelectInput.vue'
+	import ProjetoCard from "./ProjetoCard.vue"
+	import projectsData from "../assets/data/projectsData.json"
+
+	const projects = ref([])
+	const projectCategory = ref('')
+
+	function setFilter(filter){
+		projects.value = projectsData.filter(p => p.categorys.find(c => c === filter))
+	}
+
+	setFilter('All')
+</script>
+
+
 <template>
 	<section id="projetos" class="scroll-mt-28 bg-myPurple-700">
 
@@ -30,24 +47,6 @@
 		</div>
 	</section>
 </template>
-
-<script setup>
-	import { ref } from 'vue'
-	import SelectInput from '@/components/SelectInput.vue'
-	import ProjetoCard from "./ProjetoCard.vue"
-	import projectsData from "../assets/data/projectsData.json"
-
-	const projects = ref([])
-	const projectCategory = ref('')
-
-	function setFilter(filter){
-		projects.value = projectsData.filter(p => p.categorys.find(c => c === filter))
-	}
-
-	setFilter('All')
-	
-
-</script>
 
 <style>
 	.projects-enter-active,
