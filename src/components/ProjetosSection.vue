@@ -5,13 +5,12 @@
 	import projectsData from "../assets/data/projectsData.json"
 
 	const projects = ref([])
-	const projectCategory = ref('')
 
 	function setFilter(filter){
 		projects.value = projectsData.filter(p => p.categorys.find(c => c === filter))
 	}
 
-	setFilter('All')
+	setFilter('Todos')
 </script>
 
 
@@ -29,7 +28,7 @@
 				</div>
 			</div>
 
-			<p v-if="!projects.length" class="font-madeTommy text-white">Nenhum projeto encontrado. :/</p>
+			<p v-if="!projects.length" class="font-madeTommy text-white">Nenhum projeto encontrado./</p>
 
 			<div class="flex flex-col gap-y-8 justify-center items-center">
 				<TransitionGroup name="projects">

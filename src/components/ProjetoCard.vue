@@ -1,18 +1,18 @@
 <template>
 	<div :class="card_class">
 		<div class="w-full">
-			<img class="mx-auto w-72 md:w-80" :src="project.image" :alt="project.name">
+			<img class="mx-auto w-72 md:w-80" :src="`/src/assets/banners/${project.image}.png`" :alt="project.name">
 		</div>
 		<div class="w-full md:text-left space-y-5">
 			<div class="md:text-left mx-auto md:mx-0 space-y-2 w-3/4 md:w-4/5">
 				<h2 class="font-bold font-madeTommy text-2xl text-myPurple-400">{{ project.name }}</h2>
-				<ul class="flex gap-x-2 justify-center md:justify-start items-center">
+				<ul class="w-56 flex gap-x-2 justify-center md:justify-start items-center">
 					<li
-						v-for="category in project.categorys"
+						v-for="lang in project.langs"
 						:key="project.id"
-						class="text-neutral-300 font-madeTommy text-xs bg-neutral-700/50 px-2 rounded-md"
+						class="bg-neutral-400/10 p-1.5 rounded-full"
 					>
-						{{ category }}
+						<img class="w-4" :src="`/src/assets/icons/langs/${lang}.svg`" :title="lang" :alt="lang">
 					</li>
 				</ul>
 				<p class="text-neutral-200 font-madeTommy leading-5">
@@ -28,7 +28,8 @@
 </template>
 
 <script setup>
-	const { project } = defineProps({project: null})
+	const { project } = defineProps(['project'])
+	// project.image = new URL('/src/assets/banners/'+project.image, import.meta.url)
 
 	const card_class = project.id % 2 ? 'card card-normal' : 'card card-reverse'
 	const link_class = project.link ? 'project-button' : 'project-button-desactived' 

@@ -2,7 +2,7 @@
 	<div class="w-44 bg-myPurple-800 rounded border border-myPurple-400 shadow-button transition-all relative z-40">
 		<button @click="openSelect" class="w-full h-full flex px-2 py-1 gap-x-3 items-center cursor-pointer">
 			<img ref="caretIcon" class="mt-0.5 transition-all duration-300" src="@/assets/icons/caret-down-fill.svg">
-			<p ref="selectText" class="font-madeTommy text-neutral-300">All</p>
+			<p ref="selectText" class="font-madeTommy text-neutral-300">Todos</p>
 		</button>
 
 		<Transition
@@ -13,14 +13,14 @@
 				<ul>
 					<li class="text-neutral-300 font-madeTommy text-left border-t border-myPurple-400">
 						<label class="flex items-center gap-x-2 p-1 cursor-pointer hover:bg-myPurple-400/30 pl-2">
-							<input class="accent-myPurple-400" @click="radioClick" type="radio" name="select-filter" value="All" checked>
-							All
+							<input class="accent-myPurple-400" @click="radioClick" type="radio" name="select-filter" value="Todos" checked>
+							Todos
 						</label>
 					</li>
 					<li class="text-neutral-300 font-madeTommy text-left border-t border-myPurple-400">
 						<label class="flex items-center gap-x-2 p-1 cursor-pointer hover:bg-myPurple-400/30 pl-2">
-							<input class="accent-myPurple-400" @click="radioClick" type="radio" name="select-filter" value="Personal">
-							Personal
+							<input class="accent-myPurple-400" @click="radioClick" type="radio" name="select-filter" value="Pessoal">
+							Pessoal
 						</label>
 					</li>
 					<li class="text-neutral-300 font-madeTommy text-left border-t border-myPurple-400">
@@ -49,8 +49,8 @@
 					</li>
 					<li class="text-neutral-300 font-madeTommy text-left border-t border-myPurple-400">
 						<label class="flex items-center gap-x-2 p-1 cursor-pointer hover:bg-myPurple-400/30 pl-2">
-							<input class="accent-myPurple-400" @click="radioClick" type="radio" name="select-filter" value="Study">
-							Study
+							<input class="accent-myPurple-400" @click="radioClick" type="radio" name="select-filter" value="Estudo">
+							Estudo
 						</label>
 					</li>
 				</ul>
