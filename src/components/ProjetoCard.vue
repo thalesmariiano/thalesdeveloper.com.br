@@ -12,7 +12,7 @@
 						:key="project.id"
 						class="bg-neutral-400/10 p-1.5 rounded-full"
 					>
-						<img class="w-4" :src="`/src/assets/icons/langs/${lang}.svg`" :title="lang" :alt="lang">
+						<img class="w-4" :src="`/assets/langs/${lang}.svg`" :title="lang" :alt="lang">
 					</li>
 				</ul>
 				<p class="text-neutral-200 font-madeTommy leading-5">
@@ -30,7 +30,7 @@
 <script setup>
 	const { project } = defineProps(['project'])
 
-	project.image = new URL('/banners/'+project.image+'.png', import.meta.url)
+	project.image = new URL('/assets/banners/'+project.image+'.png', import.meta.url)
 
 	const card_class = project.id % 2 ? 'card card-normal' : 'card card-reverse'
 	const link_class = project.link ? 'project-button' : 'project-button-desactived' 
