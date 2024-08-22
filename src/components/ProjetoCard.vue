@@ -28,8 +28,11 @@
 </template>
 
 <script setup>
+	const images = import.meta.glob('/src/assets/banners/*.png')
+
 	const { project } = defineProps(['project'])
-	project.image = new URL('/src/assets/banners/'+project.image+'.png', import.meta.url)
+
+	project.image = images[`src/assets/banners/${project.image}.png`]
 
 	const card_class = project.id % 2 ? 'card card-normal' : 'card card-reverse'
 	const link_class = project.link ? 'project-button' : 'project-button-desactived' 
