@@ -1,7 +1,7 @@
 <template>
 	<div :class="card_class">
 		<div class="w-full">
-			<img class="mx-auto w-72 md:w-80" :src="`/src/assets/banners/${project.image}.png`" :alt="project.name">
+			<img class="mx-auto w-72 md:w-80" :src="project.image" :alt="project.name">
 		</div>
 		<div class="w-full md:text-left space-y-5">
 			<div class="md:text-left mx-auto md:mx-0 space-y-2 w-3/4 md:w-4/5">
@@ -29,7 +29,7 @@
 
 <script setup>
 	const { project } = defineProps(['project'])
-	// project.image = new URL('/src/assets/banners/'+project.image, import.meta.url)
+	project.image = new URL('/src/assets/banners/'+project.image+'.png', import.meta.url)
 
 	const card_class = project.id % 2 ? 'card card-normal' : 'card card-reverse'
 	const link_class = project.link ? 'project-button' : 'project-button-desactived' 
