@@ -49,7 +49,7 @@
 		"name": "Nutri Planner Pro",
 		"description": "Uma landing page para uma planilha de atendimento para nutricionistas.",
 		"langs": [
-			"Vuejs",
+			"VueJs",
 			"TailwindCss",
 			"Javascript"
 		],
@@ -63,7 +63,7 @@
 		"name": "E-Book Afirme e Cocrie",
 		"description": "Uma landing page para um E-Book sobre lei da atração.",
 		"langs": [
-			"Vuejs",
+			"VueJs",
 			"TailwindCss",
 			"Javascript"
 		],
